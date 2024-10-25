@@ -26,3 +26,5 @@ app.get("/products/values", async (request, response) => {
       .json({ error: "Invalid input. Please provide a list of products." });
   }
 });
+
+module.exports = app;
